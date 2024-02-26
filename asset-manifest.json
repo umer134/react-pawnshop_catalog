@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-pawnshop_catalog/static/css/main.edb86c57.css",
+    "main.js": "/react-pawnshop_catalog/static/js/main.b0ecff6b.js",
+    "static/js/453.167b3322.chunk.js": "/react-pawnshop_catalog/static/js/453.167b3322.chunk.js",
+    "index.html": "/react-pawnshop_catalog/index.html",
+    "main.edb86c57.css.map": "/react-pawnshop_catalog/static/css/main.edb86c57.css.map",
+    "main.b0ecff6b.js.map": "/react-pawnshop_catalog/static/js/main.b0ecff6b.js.map",
+    "453.167b3322.chunk.js.map": "/react-pawnshop_catalog/static/js/453.167b3322.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edb86c57.css",
+    "static/js/main.b0ecff6b.js"
+  ]
+}
