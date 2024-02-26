@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.catalog-title{
+    margin-top: 100px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.catalog-title span{
+    color:#dd4d60;
+}
+
+.inp-filters{
+    margin-top: 50px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135px;
+}
+
+.inp-filters input{
+    outline: none;
+}
+
+.inp-filters input:focus{
+    border: 2px solid aqua;
+}
+
+.inp-filters button{
+    height: 25px;
+    cursor: pointer;
+}
+.price-inp{
+    margin: 0 15px;
+}
+.price-inp input{
+    font-size: 17px;
+    width: 140px;
+}
+
+.brand-inp input{
+    font-size: 17px;
+    margin: 0 15px;
+}
+.name-inp input{
+    font-size: 17px;
+    margin: 0 15px;
+}
+
+.cards {
+    margin: 60px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 32px;
+    -moz-column-gap: 32px;
+    column-gap: 32px;
+    grid-row-gap: 37px;
+    row-gap: 37px;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+/* PAGINATION */
+.pag-btns{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pagination{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+/* PRODUCTS */
+
+.product h2{
+    text-align: center;
+}
+.container .id{
+    margin-top: 10px;
+}
+
+.container h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.container .brand{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container .brand span{
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.container .price{
+    text-align: center;
+    color: #a52838;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1200px) {.cards {
+padding: 60px 0;
+padding-left: 40px;
+padding-right: 15px;
+justify-content: center;
+margin: 0 auto;
+grid-template-columns: 1fr 1fr 1fr;
+}}
+
+@media(max-width:1030px){
+    .inp-filters{
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 100px;
+    }
+
+    .inp-filters input{
+        margin: 7px 0;
+    }
+}
+
+@media(max-width: 600px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
